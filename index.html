@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do App - Typescript</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+      }
+      li {
+        list-style-type: none;
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>ToDo App</h1>
+    <form action="">
+      <label for="add-task">Add Task</label>
+      <input type="text" id="add-task" />
+      <input type="button" id="confirm" value="Confirm" />
+    </form>
+    <ul id="tasks-list"></ul>
+    <script src="./dist/app.js"></script>
+  </body>
+</html>
